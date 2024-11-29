@@ -7,7 +7,7 @@ var isDate = function (input) {
 
 	const parsedDate=Date.parse(input);
 
-	return !NaN(parsedDate);
+	return !isNaN(parsedDate);
 };
 
 // Do not change the code below.
